@@ -22,7 +22,7 @@ void loop() {
       
     }
     else {
-      digitalWrite (ledPin, HIGH);       //turn LED off
+      digitalWrite (ledPin, LOW);       //turn LED off
       Serial.println ("---------");
     }
 
