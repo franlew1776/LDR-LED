@@ -5,7 +5,7 @@ const int ldrPin = A0; //the number of the LDR pin
 
 void setup() {
   Serial.begin (9600);
-  pinMode (ledPin, INPUT); //initiate the LED pin as an output
+  pinMode (ledPin, OUTPUT); //initiate the LED pin as an output
   pinMode (ldrPin, OUTPUT); //initiate the LDR pin as an input 
 }
 
